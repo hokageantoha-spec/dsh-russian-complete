@@ -1,0 +1,15 @@
+# Build inputs from a local DSH installation and user-specific operational data
+.cache/
+node_modules/
+backups/
+.publish/
+.env
+.env.*
+*.log
+reports/install*
+reports/plugins-after.json
+
+# Keep the current ready-to-install release available to download
+dist/*
+!dist/dsh-russian-complete-1.1.0.tgz
+!dist/dsh-russian-complete-1.1.0.tgz.sha256
